@@ -1,0 +1,16 @@
+body {
+	background-image: url("../media/chex.png");
+	background-size: 100%;
+	background-position: center auto;
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin:0px;
+	background-color:darkred;
+}
+#content{
+	height:200vh;
+	width:80%;
+	background-color:#A34545;
+	margin:auto;
+	margin-top:200px;
+}
