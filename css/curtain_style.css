@@ -1,0 +1,44 @@
+body{
+	margin:0;
+	padding:0;
+	max-width: 100%;
+    overflow-x: hidden;
+}
+
+#curtains{
+	width:100%;
+	height:100vh;
+}
+
+#left,#right{
+	width:50%;
+	background-image: url('../media/curtain.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding:0px;
+	margin: 0px;
+	height:100vh;
+	display: inline-block;
+
+}
+#right{
+	float:right;
+	animation-name:righttoleft;
+	animation-duration:4s;
+	animation-fill-mode: forwards;
+}
+
+#left{
+	animation-name:lefttoright;
+	animation-duration:4s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes lefttoright {
+  from {margin-left:0%;}
+  to {margin-left:-70%;}
+}
+@keyframes righttoleft {
+  from {margin-right: 0%;}
+  to {margin-right:-70%}
+}
